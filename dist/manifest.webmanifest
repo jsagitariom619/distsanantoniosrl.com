@@ -1,0 +1,10 @@
+{
+  "name":"Distribuidora San Antonio",
+  "short_name":"San Antonio",
+  "description":"Catálogo y solicitudes de pedido de Distribuidora San Antonio",
+  "start_url":"/",
+  "display":"standalone",
+  "background_color":"#f4f8fb",
+  "theme_color":"#0B2F5B",
+  "icons":[{"src":"/assets/logo-san-antonio.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}
