@@ -14,3 +14,5 @@
 .hero-compact + .catalog-section{padding-top:72px}
 @media(max-width:900px){.hero-compact{min-height:390px}.hero-compact .hero-photo{background-image:linear-gradient(90deg,rgba(255,255,255,.97),rgba(255,255,255,.78)),url("/assets/hero-distribucion.png");background-position:62% center}}
 @media(max-width:600px){.hero-compact{min-height:360px}.hero-compact .hero-content{padding:42px 0 48px}.hero-compact h1{font-size:2.35rem}.hero-compact .hero-actions{flex-direction:row;flex-wrap:wrap}.hero-compact .hero-actions .btn{flex:1 1 145px}.hero-compact + .catalog-section{padding-top:54px}}
+
+.institutional-page{min-height:calc(100vh - 190px);background:#fff}.institutional-title{color:var(--navy);font-size:clamp(2.4rem,5vw,4.4rem);line-height:1.05;letter-spacing:-.05em;margin:12px 0 22px}
