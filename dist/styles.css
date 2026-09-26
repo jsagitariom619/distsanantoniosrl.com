@@ -5,14 +5,14 @@
 
 /* Inicio comercial simplificado: catálogo como protagonista */
 .hero-compact{min-height:430px;background:#f7fafc;border-bottom:1px solid var(--line)}
-.hero-compact .hero-photo{background-image:linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.94) 38%,rgba(255,255,255,.42) 68%,rgba(255,255,255,.16)),url("/assets/hero-distribucion.png")}
+.hero-compact .hero-photo{background-image:linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.94) 38%,rgba(255,255,255,.42) 68%,rgba(255,255,255,.16)),url("/assets/hero-distribucion.png");background-size:100% 100%,auto 100%;background-repeat:no-repeat,no-repeat;background-position:center,right center}
 .hero-compact .hero-content{padding:58px 0}
 .hero-compact .hero-copy{color:var(--ink);max-width:540px}
 .hero-compact h1{color:var(--navy);font-size:clamp(2.35rem,5vw,4.2rem);margin:10px 0 14px}
 .hero-compact p{color:var(--muted);font-size:1.08rem;margin-bottom:0}
 .hero-compact .availability-note{color:var(--muted);margin-top:14px}
 .hero-compact + .catalog-section{padding-top:72px}
-@media(max-width:900px){.hero-compact{min-height:390px}.hero-compact .hero-photo{background-image:linear-gradient(90deg,rgba(255,255,255,.97),rgba(255,255,255,.78)),url("/assets/hero-distribucion.png");background-position:62% center}}
-@media(max-width:600px){.hero-compact{min-height:360px}.hero-compact .hero-content{padding:42px 0 48px}.hero-compact h1{font-size:2.35rem}.hero-compact .hero-actions{flex-direction:row;flex-wrap:wrap}.hero-compact .hero-actions .btn{flex:1 1 145px}.hero-compact + .catalog-section{padding-top:54px}}
+@media(max-width:900px){.hero-compact{min-height:390px}.hero-compact .hero-photo{background-image:linear-gradient(90deg,rgba(255,255,255,.97),rgba(255,255,255,.78)),url("/assets/hero-distribucion.png");background-size:100% 100%,auto 100%;background-repeat:no-repeat,no-repeat;background-position:center,right center}}
+@media(max-width:600px){.hero-compact{min-height:360px}.hero-compact .hero-photo{background-image:none}.hero-compact .hero-content{padding:42px 0 48px}.hero-compact h1{font-size:2.35rem}.hero-compact .hero-actions{flex-direction:row;flex-wrap:wrap}.hero-compact .hero-actions .btn{flex:1 1 145px}.hero-compact + .catalog-section{padding-top:54px}}
 
 .institutional-page{min-height:calc(100vh - 190px);background:#fff}.institutional-title{color:var(--navy);font-size:clamp(2.4rem,5vw,4.4rem);line-height:1.05;letter-spacing:-.05em;margin:12px 0 22px}
